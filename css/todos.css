@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+  background-color: #fdfdfd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.my-to-do {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin: 7rem auto;
+  flex-wrap: wrap;
+  border: 1px solid rgba(218, 206, 206, 0.822);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px #1d2d443f;
+}
+
+.container {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  /* border: 1px solid rgb(145, 59, 59); */
+}
+
+.container h1 {
+  color: rgb(204, 179, 216);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 3;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.todo-title {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-title input {
+  display: inline-block;
+  outline: none;
+  border: none;
+  width: 75%;
+  height: 55px;
+  background-color: #81acd4;
+}
+
+.todo-title input::placeholder {
+  font-size: 1.2rem;
+  color: #22333b;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+
+#toggle-form {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  height: 55px;
+  overflow: hidden;
+  font-size: 0.9rem;
+  padding-top: 18px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #6b719b;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.4s ease-in-out;
+}
+
+#toggle-form:hover {
+  background-color: #6e4c81;
+}
+
+.add-list {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 4rem 0;
+  /* border: 1px solid rgba(196, 182, 182, 0.274); */
+}
+
+.add-list li {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  font-size: 1.1rem;
+  color: #284475;
+  letter-spacing: 1px;
+  background-color: #eee8e8;
+  cursor: pointer;
+  float: right;
+  margin: 0 0 35px;
+  padding: 20px 15px;
+  /* border: 1px solid red; */
+}
+
+.add-list li span {
+  color: #531744;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 0;
+  float: right;
+  transition: 0.2s linear;
+  margin: 0;
+  padding: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
