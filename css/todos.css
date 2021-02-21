@@ -37,13 +37,13 @@ body {
   font-weight: 600;
   line-height: 3;
   text-transform: uppercase;
-  margin: 10px 0 0;
-  padding: 0;
+  padding-bottom: 40px;
+  /* border: 1px solid red; */
 }
 
 .todo-title {
   width: 100%;
-  height: 150px;
+  height: 50px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@ body {
   height: auto;
   height: 55px;
   overflow: hidden;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding-top: 18px;
   text-align: center;
   cursor: pointer;
@@ -101,22 +101,20 @@ body {
 
 .add-list li {
   width: 100%;
-  height: 60px;
+  height: 50px;
   overflow: hidden;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #284475;
   letter-spacing: 1px;
   background-color: #eee8e8;
   cursor: pointer;
-  float: right;
   margin: 0 0 35px;
-  padding: 20px 15px;
-  /* border: 1px solid red; */
+  padding: 15px 15px;
 }
 
 .add-list li span {
   color: #531744;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 200;
   margin: 0;
   float: right;
