@@ -2,7 +2,7 @@
 
 ##### Build with Html, Css, jQuery, Google Font and Font Awsome
 
-#### Updated with some features
+#### Updated with new features
 
 ###### Make your first list or delete the list by clicking cross icon
 
