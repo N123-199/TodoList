@@ -1,4 +1,4 @@
-### Colt Steel's TodoList Project
+### Colt Steele's TodoList Project
 
 ##### Build with Html, Css, jQuery, Google Font and Font Awsome
 
